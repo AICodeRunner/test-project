@@ -1,7 +1,7 @@
 import openai
 import os
 
-# Sæt din OpenAI API-nøgle
+# Sæt din OpenAI API-nøgle fra miljøvariabler
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
 # Funktion til at forespørge OpenAI API
